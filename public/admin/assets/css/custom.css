@@ -1,0 +1,43 @@
+.form-control:focus {
+  color: #b8b8b8;
+}
+select.form-control {
+  color: #ffffff;
+}
+.text-red-600 {
+  color: rgb(220 38 38);
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.crud-link {
+  text-decoration: none;
+  color: inherit;
+  background: inherit;
+}
+.crud-link.badge-outline-success {
+  color: #00d25b;
+}
+.crud-link.badge-outline-primary {
+  color: #0090e7;
+}
+.crud-link.badge-outline-warning {
+  color: #ffab00;
+}
+.crud-link.badge-outline-danger {
+  color: #fc424a;
+}
+.swal2-modal .swal2-title {
+  color: inherit;
+}
+textarea {
+  height: 80px !important;
+}
+.create-new-data-button {
+  margin-left: 16px;
+  margin-bottom: 1.125rem;
+}
+.form-control[readonly] {
+  background-color: #1f2329;
+}

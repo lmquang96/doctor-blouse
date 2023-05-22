@@ -1,0 +1,122 @@
+html {
+  scroll-behavior: smooth;
+}
+.post-title {
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+}
+.categories li {
+  float: unset;
+  width: auto;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.comment-area {
+  border-radius: 8px;
+  border: 1px solid #E8EEE4;
+  box-shadow: 0 4px 12px rgba(154, 159, 151, 0.2);
+}
+.comment-area > .row {
+  width: 100%;
+}
+.comment-area h3 {
+  margin-top: 2%;
+  margin-left: 27%;
+  font-family: 'Manrope', sans-serif;
+  font-weight: bold
+}
+
+.comment-area .card {
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.comment-area img {
+  border-radius: 10px;
+  padding-right: 5px;
+  width: 60px;
+  height: 55px
+}
+
+.comment-area img:hover {
+  cursor: pointer
+}
+
+.comment-area .round .align-self-start {
+  border-radius: 100%;
+  width: 45px;
+  height: 40px
+}
+
+.comment-area .media .comment {
+  background: #F4F4F4;
+  border: none;
+  border-radius: 10px
+}
+
+.comment-area h6.user {
+  color: #5C5C5C;
+  font-size: 15px !important;
+  padding-left: 15px !important;
+  margin-bottom: 0
+}
+
+.comment-area h6.user:hover {
+  cursor: pointer;
+  text-decoration: underline
+}
+
+.comment-area p.text {
+  margin-bottom: 0;
+  color: #8A8A8A !important;
+  font-size: 14px
+}
+
+.comment-area .ml-auto {
+  margin-right: 10px
+}
+
+.comment-area p .reply {
+  color: #5C5C5C;
+  font-size: 15px
+}
+
+@media screen and (min-width: 576px) {
+  .comment-area .comment {
+      width: 470px !important
+  }
+}
+
+.language-select {
+  border: 1px solid #ced4da;
+  font-size: 12px;
+  padding: 2px 8px;
+  color: #6E807A;
+}
+.language-select ~ .dropdown-menu {
+  font-size: 12px;
+  padding: 2px 8px;
+}
+.language-select ~ .dropdown-menu a {
+  padding: 0.25rem 0;
+}
+.flag-icon {
+  display: inline-block;
+  line-height: 1em;
+  position: relative;
+  width: 1.33333333em;
+  height: 1em;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.flag-icon-en {
+  background-image: url(/images/flag/en.svg); 
+}
+.flag-icon-vi {
+  background-image: url(/images/flag/vi.svg); 
+}
